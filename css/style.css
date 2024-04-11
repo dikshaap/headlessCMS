@@ -1,0 +1,388 @@
+/* body {
+    overflow-x: hidden !important;
+} */
+
+.container-fluid {
+    /* display: grid;
+    grid-template-columns: 255px 1fr; */
+    padding-left: 0 !important;
+    background-color: #f8f7fc;
+}
+
+
+/* SIDEBAR */
+
+#sidebar {
+    width: 255px;
+    position: fixed;
+    height: 100%;
+    z-index: 1000;
+    transition: all .25s ease-in-out;
+    background: #363740;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sidebar-logo {
+    margin-top: 37px;
+    margin-left: 32px;
+
+}
+
+#kit {
+    /* Dashboard Kit */
+    position: absolute;
+    width: 136px;
+    height: 24px;
+    left: 76px;
+    top: 41px;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 19px;
+    color: #A4A6B3;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+
+.sidebar-logo a {
+    color: #FFF;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+/* #sidebar:not(.expand) .sidebar-logo,
+#sidebar:not(.expand) a.sidebar-link span {
+    display: none;
+} */
+
+.sidebar-nav {
+    padding: 50px 0 16px 0;
+    border-bottom: 1px solid rgb(223, 224, 235, 0.08);
+    list-style: none;
+}
+
+.sidebar-nav1 {
+    padding: 0 0 0 0;
+    list-style: none;
+}
+
+a.sidebar-link {
+    height: 56px;
+    padding: 18px 32px;
+    color: #A4A6B3;
+    display: block;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 20px; */
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    white-space: nowrap;
+    border-left: 3px solid transparent;
+}
+
+.icontext {
+    position: relative;
+    margin-left: 24px;
+}
+
+
+
+
+a.sidebar-link:hover {
+
+    border-left: 3px solid #dde2ff;
+    text-decoration: none;
+    background-color: rgba(159, 162, 180, 0.08);
+    color: #dde2ff;
+
+}
+
+.sidebar-item {
+    position: relative;
+}
+
+.content {
+    padding-left: 20% !important;
+}
+
+/* TOP CARDS */
+.topCards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    row-gap: 20px;
+}
+.card{
+    border: 1px solid #DFE0EB;
+}
+
+
+.card-subtitle {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: #9FA2B4 !important;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.card-title {
+    color: #252733;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+}
+
+.card:hover .card-subtitle,
+.card:hover .card-title {
+    color: #3751FF !important;
+}
+
+.card:hover {
+    border: 1px solid #3751FF;
+}
+
+
+#graph{
+    background-color: #FFF;
+    border-radius: 8px;
+    border: 1px solid #dfe0eb;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-8{
+    /* display: flex;
+    flex-wrap: wrap; */
+    border-right: 1px solid #dfe0eb;
+}
+.row{
+    /* display: flex;
+    flex-wrap: wrap; */
+    border-bottom: 1px solid #dfe0eb;
+}
+img{
+    padding-top: 5%;
+    
+}
+.h8{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    
+    line-height: 22px;
+    color: #9fa2b4;
+    text-align:center;
+    /* margin-top: 40px; */
+   
+}
+
+.h3{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #252733;
+    text-align: center;
+}
+.col{
+    padding: 5% 10%;
+}
+.row{
+    display: flex;
+    flex: 1;
+}
+
+/* BOTTOM CONTENT */
+.userName{
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 14px;
+}
+.leftNav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row !important;
+    gap: 20px;
+    /* padding-top: 5px; */
+}
+svg.photo{
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+svg.icons{
+    margin-top: 10px;
+}
+h5.userName{
+    margin-top: 10px;
+    
+}
+
+.tickets {
+    display: flex;
+    margin-top: 30px !important;
+    width: 500px !important;
+    height: 250px;
+    border: 1px solid black;
+    background-color: #FFF;
+    flex-direction: row;
+    margin-left: 300px;
+    border-radius: 10px;
+    border:1px solid #DFE0EB;
+    justify-content: center;
+}
+.leftCol{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightCol{
+    padding-top: 20px;
+    flex: 1;
+    align-self: flex-end !important;
+}
+
+.ticketHeader{
+    font-family: 'Mulish';
+    font-size: 19px;
+    color: #252733;
+    font-weight: 600;
+}
+
+.details{
+    font-family: 'Mulish';
+    font-size: 14px;
+    color: #3751FF;
+    padding-left: 200px;
+    align-items: flex-end;
+}
+
+.ticketName{
+    font-family: 'Mulish';
+    font-size: 14px;
+    color: #252733;
+    font-weight: 600;
+    border-bottom: 1px solid #DFE0EB;
+}
+
+.ticketNumber{
+    color: #9FA2B4;
+    font-family: 'Mulish';
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 190px;
+}
+.groupLabel {
+    color: #9FA2B4; 
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.supportGroup {
+    color: #252733; 
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.list-group-item{
+    font-family: 'Mulish';
+    font-size: 14px;
+    color: #252733;
+    font-weight: 600;
+}
+.tasks{
+    display: flex;
+    margin-top: 30px !important;
+    width: 500px !important;
+    height: 250px;
+    border: 1px solid black;
+    background-color: #FFF;
+    flex-direction: row;
+    margin-left: 30px;
+    border-radius: 10px;
+    border:1px solid #DFE0EB;
+    justify-content: center;
+}
+/* span.yellowBadge, span.greenBadge, span.greyBadge{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+} */
+.yellowBadge{
+    background-color: #FEC400;
+    border-radius: 5px;
+    color: #FFF;
+    width: 60px;
+    text-align: center;
+    margin-left: 166px;
+    font-size: 12px;
+}
+.greenBadge{
+    background-color: #29CC97;
+    border-radius: 5px;
+    color: #FFF;
+    width: 60px;
+    text-align: center;
+    margin-left: 120px;
+    font-size: 12px;
+}
+.greyBadge{
+    background-color: #f8f7fc;
+    border-radius: 5px;
+    color: #9fa2b4;
+    width: 70px;
+    text-align: center;
+    margin-left: 155px;
+    font-size: 12px;
+}
+.plus{
+    color: #9FA2B4;
+    border-radius: 10px;
+    fill: #9FA2B4;
+}
+#create{
+    color: #C5C7CD;
+
+}
+.bottomContent{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 50px;
+    padding-bottom: 100px !important;
+}
+.view{
+    font-family: 'Mulish';
+    font-size: 14px;
+    color: #3751FF;
+    padding-left: 300px;
+    align-items: flex-end;
+}
+.padding{
+    padding-right: 40px;
+}
+/* .taskText{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+} */
+.plus{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 1389px) {
+    
+    .tickets{
+        margin-left: 200px;
+    }
+    #graph{
+        margin: 30px 0 0 200px;
+    }
+}

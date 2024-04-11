@@ -1,0 +1,80 @@
+{
+    "user": {
+        "fullname": "Jones Ferdinand"
+    },
+    "cards": [
+        {
+            "title": "Unresolved",
+            "count": 60
+        },
+        {
+            "title": "Overdue",
+            "count": 16
+        },
+        {
+            "title": "Open",
+            "count": 43
+        },
+        {
+            "title": "On hold",
+            "count": 64
+        }
+    ],
+    "cards2": [
+        {
+            "title": "Resolved",
+            "count": 449
+        },
+        {
+            "title": "Received",
+            "count": 426
+        },
+        {
+            "title": "Average first response time",
+            "count": "33m"
+        },
+        {
+            "title": "Average response time",
+            "count": "3h 8m"
+        },
+        {
+            "title": "Resolution within SLA",
+            "count": "94%"
+        }
+    ],
+    "cards3": [
+        {
+            "title": "Waiting on Feature Request",
+            "count": 4238
+        },
+        {
+            "title": "Awaiting Customer Response",
+            "count": 1005
+        },
+        {
+            "title": "Awaiting Developer Fix",
+            "count": 914
+        },
+        {
+            "title": "Pending",
+            "count": 281
+        }
+    ],
+    "cards4": [
+        {
+            "title": "Create new task"
+        },
+        {
+            "title": "Finish ticket update",
+            "status": "URGENT"
+        },
+        {
+            "title": "Create new ticket example",
+            "status": "NEW"
+        },
+        {
+            "title": "Update ticket report",
+            "status": "DEFAULT"
+        }
+    ]
+}
